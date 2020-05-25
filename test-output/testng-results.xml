@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="46679" started-at="2020-05-25T19:52:16 IST" finished-at="2020-05-25T19:53:02 IST">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="46679" started-at="2020-05-25T19:52:16 IST" finished-at="2020-05-25T19:53:02 IST">
+      <class name="FacebookModuleTestcases.TC02_TestLoginWithInvalidCredentials">
+        <test-method status="PASS" signature="Launchbrowser()[pri:0, instance:FacebookModuleTestcases.TC02_TestLoginWithInvalidCredentials@5d76b067]" name="Launchbrowser" is-config="true" duration-ms="12032" started-at="2020-05-25T19:52:30 IST" finished-at="2020-05-25T19:52:42 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Launchbrowser -->
+        <test-method status="PASS" signature="TestInvalidUser()[pri:0, instance:FacebookModuleTestcases.TC02_TestLoginWithInvalidCredentials@5d76b067]" name="TestInvalidUser" duration-ms="10495" started-at="2020-05-25T19:52:46 IST" finished-at="2020-05-25T19:52:57 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestInvalidUser -->
+        <test-method status="PASS" signature="CloseBrowser()[pri:0, instance:FacebookModuleTestcases.TC02_TestLoginWithInvalidCredentials@5d76b067]" name="CloseBrowser" is-config="true" duration-ms="4455" started-at="2020-05-25T19:52:58 IST" finished-at="2020-05-25T19:53:02 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseBrowser -->
+      </class> <!-- FacebookModuleTestcases.TC02_TestLoginWithInvalidCredentials -->
+      <class name="FacebookModuleTestcases.TC01_TestLoginFunctionality">
+        <test-method status="PASS" signature="Launchbrowser()[pri:0, instance:FacebookModuleTestcases.TC01_TestLoginFunctionality@7d0587f1]" name="Launchbrowser" is-config="true" duration-ms="14223" started-at="2020-05-25T19:52:16 IST" finished-at="2020-05-25T19:52:30 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Launchbrowser -->
+        <test-method status="PASS" signature="LoginUser()[pri:0, instance:FacebookModuleTestcases.TC01_TestLoginFunctionality@7d0587f1]" name="LoginUser" duration-ms="3833" started-at="2020-05-25T19:52:42 IST" finished-at="2020-05-25T19:52:46 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginUser -->
+        <test-method status="PASS" signature="CloseBrowser()[pri:0, instance:FacebookModuleTestcases.TC01_TestLoginFunctionality@7d0587f1]" name="CloseBrowser" is-config="true" duration-ms="1318" started-at="2020-05-25T19:52:57 IST" finished-at="2020-05-25T19:52:58 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseBrowser -->
+      </class> <!-- FacebookModuleTestcases.TC01_TestLoginFunctionality -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
