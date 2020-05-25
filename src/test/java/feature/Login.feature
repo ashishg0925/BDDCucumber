@@ -1,16 +1,13 @@
 Feature: Application Login
 
-
-Scenario: Home Page Login
-Given User is on the landing page
-When User logins into application with username and password
-Then Home page is populated
-And homepage is displayed
-
+Scenario: Login with Valid Credentials
+Given the account user is on the Facebook landing Page
+When the user enters valid credentials.
+Then the user should be able to log in.
+And Close the Browrser
 
 
-Scenario: Home Page Login
-Given User is on the landing page
-When User logins into application with username = "" and password = ""
-Then Home page is populated
-And homepage is displayed
+Scenario: Login with InValid Credentials
+Given the account user is on the Facebook landing Page
+When the user enters Invalid credentials 
+Then the user should not be able to log in.
