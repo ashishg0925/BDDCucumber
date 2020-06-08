@@ -1,6 +1,6 @@
 package Framework.Facebook;
 
-import java.util.HashMap;
+
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
@@ -10,19 +10,20 @@ public class FacebookLoginPage {
 	
 	public static WebDriver Driver;
 	
-	static HashMap<String , By> map = new HashMap<String, By>();
-	static {
-		map.put("email", By.xpath("//*[@type='email'][@name='email']"));
-	}
+	
 	By Emailaddress=By.xpath("//*[@type='email'][@name='email']");
 	By pwd = By.xpath("//*[@type='password'][@name='pass']");
 	By btnLogin = By.xpath("//*[@value='Log In'][@data-testid='royal_login_button']");
 	By errormsg = By.xpath("//div[@role='alert'][contains(text(),'The email ')]");
 	By txt_Username=By.xpath("//input[@name='firstname'][@aria-label='First name']");
-	By txt_FBhomePageMesg=By.xpath("//span[@dir='auto'][text()='Add to Your Story']");
+	By txt_FBhomePageMesg=By.xpath("//*[@id=\"mount_0_0\"]/div/div/div[2]/div[3]/div/div[1]/div[1]/ul/li[1]/span/div/a");
 	By dbtn_logout = By.xpath("//div[@aria-label='Account']/img");
 	By lnk_Logout = By.xpath("//span[@dir='auto'][text()='Log Out']");
 	By btn_createnewaccount = By.xpath("//a[@role='button'][contains(text(),'Create')]");
+
+	
+	
+	
 	public FacebookLoginPage(WebDriver driver) 
 	{
 		FacebookLoginPage.Driver=driver;

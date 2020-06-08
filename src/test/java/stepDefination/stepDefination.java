@@ -62,4 +62,10 @@ public class stepDefination extends BrowserSelection
 	        FacebookLoginPage fb =new FacebookLoginPage(Driver);
 	        fb.LogoutApplication();
 	    }
+	 
+
+
+
+	 
+	 
 }

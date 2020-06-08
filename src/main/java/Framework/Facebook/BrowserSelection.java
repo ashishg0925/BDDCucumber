@@ -13,6 +13,8 @@ public class BrowserSelection {
 	
 	public WebDriver Driver;
 	public Properties prop;
+	
+	
 	public WebDriver initializeBrowser() throws IOException
 	{
 		prop = new Properties();
@@ -21,13 +23,13 @@ public class BrowserSelection {
 		String BrowserName=prop.getProperty("Browser");
 		if (BrowserName.equals("Chrome"))
 		{
-			System.setProperty("webdriver.chrome.driver", "C:\\Users\\Ashu\\Downloads\\chromedriver.exe");
+			System.setProperty("webdriver.chrome.driver", "Drivers\\chromedriver.exe");
 			 Driver=new ChromeDriver();
 			
 		}
 		else if(BrowserName.equals("Firefox"))
 		{
-			System.setProperty("webdriver.firefox.driver", "C:\\Users\\Ashu\\Downloads\\Software Download\\chromedriver.exe");
+			System.setProperty("webdriver.firefox.driver", "C:\\Users\\Ashu\\Downloads\\driver\\chromedriver.exe");
 			 Driver=new FirefoxDriver();
 		}
 		
